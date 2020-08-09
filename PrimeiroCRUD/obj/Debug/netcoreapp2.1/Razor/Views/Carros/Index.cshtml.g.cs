@@ -67,7 +67,7 @@ using PrimeiroCRUD.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n");
             EndContext();
             BeginContext(118, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb4a54900d4c4ada8f40aec7ea98a469", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "687b7f3faf234bef8037092cf600afc2", async() => {
                 BeginContext(168, 10, true);
                 WriteLiteral("Novo Carro");
                 EndContext();
@@ -141,7 +141,7 @@ using PrimeiroCRUD.Models;
             WriteLiteral(" \r\n                    </td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(947, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7ca1495f8a54398bb040a53c84bb58d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d758c31020848998a1b8f867b11104e", async() => {
                 BeginContext(1028, 9, true);
                 WriteLiteral("Atualizar");
                 EndContext();
@@ -177,7 +177,7 @@ using PrimeiroCRUD.Models;
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(1067, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "27e9eb42470643069553e55b7af238dc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbd86ff666c2422eaaab611238face8f", async() => {
                 BeginContext(1145, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();
@@ -213,7 +213,7 @@ using PrimeiroCRUD.Models;
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(1183, 87, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e6067aeb3e0740b08500e7ab1722f18b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61d92cf15bbf4dc1a511bb1843eff9d7", async() => {
                 BeginContext(1259, 7, true);
                 WriteLiteral("Excluir");
                 EndContext();

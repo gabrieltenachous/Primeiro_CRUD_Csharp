@@ -38,3 +38,4 @@ C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\Index.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\AtualizarCarro.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\Detalhes.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\Excluir.cshtml.g.cs

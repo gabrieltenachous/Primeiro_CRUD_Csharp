@@ -77,5 +77,32 @@ namespace PrimeiroCRUD.Controllers
 
             return View(carro);
         }
+        [HttpGet]
+        public IActionResult Excluir(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var carro = _contexto.Carros.FirstOrDefault(x => x.CarroId == id);
+
+            return View(carro);
+        }
+
+        [HttpPost, ActionName("Excluir")]
+        [ValidateAntiForgeryToken]
+        public IActionResult ConfirmarExcusao(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var carro = _contexto.Carros.FirstOrDefault(x => x.CarroId == id);
+            _contexto.Remove(carro);
+            _contexto.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
