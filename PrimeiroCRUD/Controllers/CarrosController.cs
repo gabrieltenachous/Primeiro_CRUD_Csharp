@@ -17,7 +17,8 @@ namespace PrimeiroCRUD.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+              
+            return View(_contexto.Carros.ToList());
         }
         [HttpGet]
         public IActionResult NovoCarro()
