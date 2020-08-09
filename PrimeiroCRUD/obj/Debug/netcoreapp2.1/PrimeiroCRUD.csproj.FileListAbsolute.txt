@@ -36,3 +36,4 @@ C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\PrimeiroCRUD.csproj.CoreCompileInputs.cache
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\NovoCarro.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\Index.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\C#\PrimeiroCRUD\PrimeiroCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Carros\AtualizarCarro.cshtml.g.cs

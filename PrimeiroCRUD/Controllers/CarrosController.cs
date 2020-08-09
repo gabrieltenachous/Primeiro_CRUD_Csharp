@@ -37,5 +37,33 @@ namespace PrimeiroCRUD.Controllers
             }
             return View(carro);
         }
+        [HttpGet]
+        public IActionResult AtualizarCarro(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var carro = _contexto.Carros.Find(id);
+
+            return View(carro);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AtualizarCarro(Carro carro, int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                _contexto.Update(carro);
+                _contexto.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(carro);
+        }
     }
 }

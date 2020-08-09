@@ -20,19 +20,16 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Marca)
-                        Marca:
+                        @Html.DisplayFor(modelItem => item.Marca) 
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Nome)
-                        Nome:
+                        @Html.DisplayFor(modelItem => item.Nome) 
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Ano)
-                        Ano:
+                        @Html.DisplayFor(modelItem => item.Ano) 
                     </td>
                     <td>
-                        <a asp-action="Atualizar" asp-route-id="@item.CarroId" class="btn btn-info">Atualizar</a>
+                        <a asp-action="AtualizarCarro" asp-route-id="@item.CarroId" class="btn btn-info">Atualizar</a>
                         <a asp-action="Detalhes" asp-route-id="@item.CarroId" class="btn btn-success">Detalhes</a>
                         <a asp-action="Excluir" asp-route-id="@item.CarroId" class="btn btn-danger">Excluir</a>
                     </td>
